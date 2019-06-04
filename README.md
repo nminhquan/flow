@@ -15,8 +15,8 @@ interface ExecutableSaga {
 }
 ```
 
-```plantuml
-@startumlv
+<img src='https://g.gravizo.com/svg?
+@startuml
 database FlowStorage
 rectangle ZaloPay_Flow
 rectangle Orchestrator{
@@ -31,7 +31,7 @@ OSSaga --> OrderSystemService: gRPC
 ZASSaga --> AccountSystemService: gRPC
 BCSaga --> BCService: gRPC
 @enduml
-```
+'>
 
 ## 2. Các thành phần chính
 

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+// options for Java generated sources
+option java_multiple_files = true;
+option java_package = "com.zalopay.flow";
+option java_outer_classname = "ZPFlowGrpcApi";
+
+package protobuf;
+
+service ZPFlow {
+    rpc processRequest (ZPFlowBaseRequest) returns (ZPFlowBaseResponse);
+}
+
+message ZPFlowBaseRequest {
+    string methodName = 1;
+    string paramsJson = 2;
+}
+
+message ZPFlowBaseResponse {
+    string response = 1;
+}

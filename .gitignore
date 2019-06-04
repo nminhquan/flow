@@ -1,0 +1,17 @@
+zalopay-flow/logs
+zalopay-flow/target
+zalopay-flow/.idea
+zalopay-flow/.idea_modules
+zalopay-flow/.classpath
+zalopay-flow/.project
+zalopay-flow/.settings
+zalopay-flow/RUNNING_PID
+zalopay-flow/project
+.project
+core/.idea
+core/.settings
+core/bin
+core/log
+core/mongo-data
+core/redis
+core/target

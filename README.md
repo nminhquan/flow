@@ -16,20 +16,20 @@ interface ExecutableSaga {
 ```
 
 <img src='https://g.gravizo.com/svg?
-@startuml
-database FlowStorage
-rectangle ZaloPay_Flow
+@startuml;
+database FlowStorage;
+rectangle ZaloPay_Flow;
 rectangle Orchestrator{
-rectangle OSSaga
-rectangle ZASSaga
-rectangle BCSaga
+rectangle OSSaga;
+rectangle ZASSaga;
+rectangle BCSaga;
 }
 
-ZaloPay_Flow <--> FlowStorage
-ZaloPay_Flow -> Orchestrator: Execute flow
-OSSaga --> OrderSystemService: gRPC
-ZASSaga --> AccountSystemService: gRPC
-BCSaga --> BCService: gRPC
+ZaloPay_Flow <--> FlowStorage;
+ZaloPay_Flow -> Orchestrator: Execute flow;
+OSSaga --> OrderSystemService: gRPC;
+ZASSaga --> AccountSystemService: gRPC;
+BCSaga --> BCService: gRPC;
 @enduml
 '>
 

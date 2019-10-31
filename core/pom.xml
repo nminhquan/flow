@@ -15,7 +15,7 @@
         <!-- Dependencies version -->
         <springboot.version>2.0.2.RELEASE</springboot.version>
         <spring.version>5.0.6.RELEASE</spring.version>
-        <jackson.version>2.9.5</jackson.version>
+        <jackson.version>2.10.0</jackson.version>
         <protobuf.version>3.5.0</protobuf.version>
         <protobufjavaformat.version>1.4</protobufjavaformat.version>
         <grpc.version>1.13.1</grpc.version>
